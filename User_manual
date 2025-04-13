@@ -1,0 +1,64 @@
+ Professional Task Manager - User Manual
+
+ Installation
+
+1. Clone the repository from GitHub:
+   ```
+   git clone https://github.com/YOUR-USERNAME/professional-task-manager.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd professional-task-manager
+   ```
+3. Install required packages:
+   ```
+   pip install -r requirements.txt
+   ```
+4. Run the application:
+   ```
+   python task_manager.py
+   ```
+
+ Using the Task Manager
+
+ Adding Tasks
+1. Enter task description in the "Task Description" field
+2. Select priority level (High, Medium, or Low)
+3. Enter due date in YYYY-MM-DD format (optional)
+4. Click "Add Task" button
+
+ Managing Tasks
+- **Edit Task**: Select a task from the list and modify its details, then click "Update Task"
+- **Delete Task**: Select a task and click "Delete Task"
+- **Mark as Complete/Incomplete**: Select a task and use the "Mark as Completed" or "Mark as Incomplete" option from the Edit menu
+
+ Filtering Tasks
+- Use the sidebar buttons to filter tasks by Priority or Status
+- Use the search field to find specific tasks by description
+
+ Saving and Loading Tasks
+- **Save**: Use File > Save or File > Save As to save your tasks to a JSON file
+- **Open**: Use File > Open to load tasks from a previously saved file
+- **New**: Use File > New to start a fresh task list
+
+Keyboard Shortcuts
+- **F5**: Refresh task list
+
+ Troubleshooting
+
+ Application Won't Start
+- Ensure Python 3.6+ is installed
+- Verify Tkinter is included in your Python installation
+- Check that all dependencies are installed via requirements.txt
+- Mail harshrokade95@gmail.com
+
+Tasks Not Saving
+- Ensure you have write permissions in the directory
+- Try using "Save As" and choose a different location
+
+Date Format Issues
+- Always use YYYY-MM-DD format for dates
+- Leave blank if no due date is required
+
+ Getting Help
+If you encounter any issues or have questions, please open an issue on the GitHub repository.
